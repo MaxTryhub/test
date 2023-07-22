@@ -1,0 +1,38 @@
+.dynamic-market-section {
+  position: relative;
+  display: flex;
+}
+
+.dynamic-market-icon {
+  position: absolute;
+}
+
+.dynamic-market-article {
+  display: flex;
+  width: 879px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.dynamic-market-article-caption {
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: var(--headline-grad, linear-gradient(43deg, rgba(255, 255, 255, 0.72) 0%, #FFF 39.77%, rgba(169, 198, 215, 0.64) 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dynamic-market-article-text {
+  color: var(--blue, #29C5F6);
+  /* Body main text */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=dynamic-market-section.css.map */
